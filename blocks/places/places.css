@@ -1,0 +1,26 @@
+.places{
+    margin: 92px auto;
+    width: calc(100% - 100px*2);
+}
+
+@media screen and (max-width: 1279px){
+    .places{
+        width: calc(100% - 48px*2);
+    }
+  }
+  
+  @media screen and (max-width: 1023px){
+    .places{
+        width: calc(100% - 24px*2);
+        margin-top: 88px;
+        margin-bottom: 90px;
+    }
+  }
+  
+  @media screen and (max-width: 767px){
+    .places{
+        width: 100%;
+        margin-top: 64px;
+        margin-bottom: 66px;
+    }
+  }
