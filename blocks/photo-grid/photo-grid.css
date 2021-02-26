@@ -1,6 +1,5 @@
 .photo-grid{
   margin: 0 auto;
-  min-height: 671px;
 }
 
 @media screen and (max-width: 1279px){
